@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 20px;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  box-shadow: 1px 1px 14px 1px rgb(0 0 0 / 25%);
+}
+.wrapper-left {
+  background-color: #303030;
+  padding: 20px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 400px;
+}
+.wrapper-left h1,
+.wrapper-left .location-age {
+  display: none;
+}
+.foto {
+  width: 250px;
+  height: 250px;
+  border: 10px solid #25a6b8;
+  background-image: url(foto/foto.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.foto-img {
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 26px;
+  width: 95%;
+  text-align: start;
+  height: 50px;
+  background-color: #25a6b8;
+  margin: 10px -10px;
+  box-shadow: 3px 4px 4px 0px #dff2f5;
+  padding: 4px 20px;
+}
+
+.skills-content {
+  padding-left: 40px;
+}
+.skills-content li {
+  list-style: square outside;
+}
+
+.personal-information,
+.language,
+.skills,
+.language {
+  width:100%;
+}
+
+.contacts-content {
+  padding-left: 20px;
+}
+.contacts-content a:hover {
+  color: #25a6b8;
+}
+.contacts-content a {
+  padding-left: 10px;
+}
+.phone::before {
+  content: "\e942";
+  font-family: "icomoon";
+  color: white;
+}
+.e-mail::before {
+  content: "\e945";
+  font-family: "icomoon";
+  color: white;
+}
+.telegram::before {
+  content: "\ea95";
+  font-family: "icomoon";
+  color: white;
+}
+.language-content::before {
+  content: "\e902  \e902  \e901  \e901  \e901";
+  font-family: "icomoon";
+  color: white;
+}
+.language-content,
+.english,
+.personality-content ul,
+.works-content ul {
+  padding-left: 25px;
+}
+.personality-content ul li:before {
+  content: "✓ ";
+}
+
+.wrapper-right {
+  flex: 1 1 auto;
+}
+.wrapper-right .title {
+  color: #fff;
+}
+.wrapper-right h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+.location-age {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.location::before {
+  content: "\e947 ";
+  font-family: "icomoon";
+  color: #000;
+  padding-right: 7px;
+}
+.age::before {
+  content: "\ea0c ";
+  font-family: "icomoon";
+  color: #000;
+  padding-right: 7px;
+}
+
+.education-content {
+  display: flex;
+  align-items: center;
+}
+.education-content-left {
+  flex: 1 1 200px;
+  text-align: center;
+  font-weight: bolder;
+}
+.education-content-right {
+  flex: 1 1 800px;
+}
+
+.js {
+  padding-bottom: 10px;
+}
+
+.it {
+  text-align: center;
+}
+.personality-content,
+.expirence-content,
+.courses-content,
+.education-content,
+.works-content {
+  padding-right: 25px;
+}
+.works-content{
+padding-bottom: 10px;
+}
+@media (max-width:  1200px) {
+    .wrapper {
+   
+      margin: 20px;
+    }
+}
+@media (max-width:  580px) {
+  .wrapper {
+    display: block;
+    margin: 20px;
+  }
+  .wrapper-left {
+    background-color: white;
+    color: #000;
+  }
+  .wrapper-left .title {
+    color: white;
+  }
+  .wrapper-right {
+    background-color: #303030;
+    color: #fff;
+  }
+  .wrapper-left h1,
+  .wrapper-left .location-age {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .wrapper-right h1,
+  .wrapper-right .location-age {
+    display: none;
+  }
+  .phone::before {
+    content: "\e942";
+    font-family: "icomoon";
+    color: white;
+  }
+  .e-mail::before,
+  .phone::before,
+  .telegram::before,
+  .language-content::before {
+    color: #000;
+  }
+  .education {
+    padding-top: 10px;
+  }
+ 
+}
