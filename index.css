@@ -107,7 +107,7 @@ body {
   color: white;
 }
 .language-content::before {
-  content: "\e902  \e902  \e901  \e901  \e901";
+  content: "\e902  \e902  \e902  \e901  \e901";
   font-family: "icomoon";
   color: white;
 }
