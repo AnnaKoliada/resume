@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?61n3dy');
-  src:  url('fonts/icomoon.eot?61n3dy#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?61n3dy') format('truetype'),
-    url('fonts/icomoon.woff?61n3dy') format('woff'),
-    url('fonts/icomoon.svg?61n3dy#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?o37se9');
+  src:  url('fonts/icomoon.eot?o37se9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?o37se9') format('truetype'),
+    url('fonts/icomoon.woff?o37se9') format('woff'),
+    url('fonts/icomoon.svg?o37se9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -45,4 +45,10 @@
 }
 .icon-telegram:before {
   content: "\ea95";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
 }
